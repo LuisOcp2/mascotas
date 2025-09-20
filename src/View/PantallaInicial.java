@@ -4,24 +4,29 @@
  */
 package View;
 
-import com.formdev.flatlaf.IntelliJTheme;
-import com.sun.tools.javac.Main;
+import Theme.Theme;
+import com.formdev.flatlaf.FlatClientProperties;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Frame;
+import java.lang.System.Logger.Level;
 
 /**
  *
  * @author lmog2
  */
-public class Login extends javax.swing.JFrame {
+public class PantallaInicial extends javax.swing.JFrame {
 
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Login.class.getName());
+   
 
-    /**
-     * Creates new form Login
-     */
-    public Login() {
+    public PantallaInicial() {
+        
         initComponents();
-
+       
+      
+       
     }
+  
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -38,16 +43,20 @@ public class Login extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 759, Short.MAX_VALUE)
+            .addGap(0, 719, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 529, Short.MAX_VALUE)
+            .addGap(0, 521, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    /**
+     * @param args the command line arguments
+     */
+   
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     // End of variables declaration//GEN-END:variables
